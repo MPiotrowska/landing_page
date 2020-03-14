@@ -2,3 +2,11 @@ ul {
     display: flex;
     justify-content: space-around;
   }
+  .container {
+    margin: 40px;
+  }
+  
+  .video-container {
+    display: flex;
+    justify-content: center;
+  }
