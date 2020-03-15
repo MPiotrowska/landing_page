@@ -16,7 +16,7 @@
             <ul>
                 <li><a class="nav-link" href="#features">Features</a></li>
                 <li><a class="nav-link" href="#how-it-works">How it works</a></li>
-                <li><a class="nav-link" href="#pricing" </a>Pricing</li>
+                <li><a class="nav-link" href="#pricing">Pricing </a></li>
             </ul>
         </nav>
     </header>
@@ -26,14 +26,17 @@
 
     <section class="container form-container">
         <form id="form">
-            <input id="email" placeholder="Enter your email address">
-            </input>
+            <input type="email" id="email"
+                pattern="[a-zA-Z]{3,}@[a-zA-Z]{3,}[.]{1}[a-zA-Z]{2,}[.]{1}[a-zA-Z]{2,}[.]{1}[a-zA-Z]{2,}" required
+                placeholder="Enter your email address">
+            <br>
+            <input type="submit" id="submit" value="Submit The Form">
         </form>
     </section>
     <section class="container video-container">
         <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/PW8tr4j1ZWE" frameborder="5"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </section>
-</body>
+</body>>
 
 </html>
