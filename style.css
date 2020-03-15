@@ -1,12 +1,24 @@
 ul {
-    display: flex;
-    justify-content: space-around;
-  }
-  .container {
-    margin: 40px;
-  }
-  
-  .video-container {
-    display: flex;
-    justify-content: center;
-  }
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.container {
+  margin: 80px;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+}
+
+.form-container {
+display: flex;
+  justify-content: center;
+}
+#nav-bar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
