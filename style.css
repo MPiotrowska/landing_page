@@ -14,11 +14,16 @@ ul {
 }
 
 .form-container {
-display: flex;
+  display: flex;
   justify-content: center;
 }
 #nav-bar {
   position: fixed;
   width: 100%;
   top: 0;
+}
+@media only screen and (max-width: 768px) {
+  #nav-bar {
+    display: none;
+  }
 }
